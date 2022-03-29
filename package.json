@@ -1,12 +1,8 @@
 {
   "dependencies": {
     "ejs": "^3.1.6",
-<<<<<<< HEAD
     "express": "^4.17.3",
     "tiny-slider": "^2.9.4"
-=======
-    "express": "^4.17.3"
->>>>>>> d9a5edc781d5c7db4b2b485d8f2642acfa5af38a
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
