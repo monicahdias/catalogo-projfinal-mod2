@@ -2,19 +2,65 @@
 @import 'sobre.css';
 @import 'detalhes.css';
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-body{
-    margin: 0px;
-    padding: 0px;
-}
 
+@media only screen and(max-width:800px) {
+    #txt{
+        top: 30px !important;
+        font-size: 50px !important;
+    }
+    h1{
+        font-size: 50px !important;
+    }
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", Verdana, Geneva, Tahoma, sans-serif; 
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container__header{
+    display: flex;
+    flex-direction: column;
+}
+.logo__header{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+#txt{
+    position: absolute;
+    left: 50px;
+    top: 135px;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.1;
+}
+.container__nav{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(70, 121, 199);
+    padding: 10px;
+    list-style: none;
+    justify-content: space-around;
+}
+.container_carousel{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    height: 400px;
+    align-items: center;
+}
 .copyright{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding: 1.8rem 0 1rem 0;
     font-family: Futura Md Bt;
-    background-color: rgb(43, 41, 41);
+    background-color: rgb(61, 94, 124);
     color: white;
+    margin-top: 0rem;
 }

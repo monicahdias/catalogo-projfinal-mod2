@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-body{
-    margin: 0px;
-    padding: 0px;
+
+@media only screen and(max-width: 900px) {
+    .containe_form{
+        flex-wrap: wrap !important;
+        flex-direction: column;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
 }
 .containe_form{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-color: rgb(137, 205, 250);
@@ -51,14 +60,4 @@ body{
     background-color: white;
     color: rgb(4, 99, 161);
 }
-.copyright{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    font-family: Futura Md Bt;
-    background-color: rgb(43, 41, 41);
-    color: white;
-}
+
