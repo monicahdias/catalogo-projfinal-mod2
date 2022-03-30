@@ -34,3 +34,15 @@
     text-align: center;
     color: #0066ff;
 }
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: Futura Md Bt;
+    background-color: rgb(43, 41, 41);
+    color: white;
+}
