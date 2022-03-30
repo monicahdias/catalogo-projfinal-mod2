@@ -11,7 +11,23 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded());
 
 app.get("/", (req, res) => {
-  res.render("index") // render the index.ejs file
+  res.render("index") 
+})
+
+app.get("/form-add", (req, res) => {
+  res.render("index") 
+})
+
+app.get("/form-edit", (req, res) => {
+  res.render("index") 
+})
+
+app.get("/detalhes", (req, res) => {
+  res.render("index") 
+})
+
+app.get("/sobre", (req, res) => {
+  res.render("index") 
 })
 
 app.listen(port, () =>
