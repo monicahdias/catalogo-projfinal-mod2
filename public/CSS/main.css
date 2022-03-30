@@ -5,3 +5,13 @@
     padding: 0;
 }
 
+/* .img-carousel{
+    align-items: center;
+    justify-content: center;
+} */
+
+.carousel-inner > .carousel-item > img {
+    width: 800px;
+    height: 600px; 
+  
+  }

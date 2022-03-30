@@ -2,16 +2,15 @@
 
 
 .card__detalhes{
- 
-    
+    border: 5px solid transparent;
     margin-top: 5em;
     font-family: 'Ubuntu', sans-serif;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-content: center;
 }
 
 .card__img{
-
     width: 40em;
     height: 30em; 
 
@@ -22,7 +21,8 @@
 }
 
 .topico{
-    font-size: 1.5em;
+    display: flex;
+    font-size: 2em;
     margin: 10px ;
     color: blue;
     list-style-type: disc;
@@ -31,6 +31,9 @@
 }
 
 .txt{
-    text-align: center;
-    color: #0066ff;
+    display: flex;
+    font-size: 1em;
+    color: #ffffff;
 }
+
+
