@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+.card__detalhes{
+ 
+    
+    margin-top: 5em;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card__img{
+
+    width: 40em;
+    height: 30em; 
+
+}
+
+.card__txt{
+    background-color: darkgrey;
+}
+
+.topico{
+    font-size: 1.5em;
+    margin: 10px ;
+    color: blue;
+    list-style-type: disc;
+    list-style-position: inside;
+      
+}
+
+.txt{
+    text-align: center;
+    color: #0066ff;
+}

@@ -23,7 +23,7 @@ app.get("/form-edit", (req, res) => {
 })
 
 app.get("/detalhes", (req, res) => {
-  res.render("index") 
+  res.render("detalhes") 
 })
 
 app.get("/sobre", (req, res) => {
