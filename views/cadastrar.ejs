@@ -8,14 +8,70 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
         <title>Descobrindo</title>
     </head>
+    <header>
+        <div class="container__header">
+            <div class="logo__header">
+                <img src="img/logo.png" alt="">
+                <h1>Descobrindo</h1>
+                <div class="logo__txt">
+                    <p>
+                        Aprenda a descobrir o que é o que é.
+                    </p>
+                </div>
+            </div>
+            <div class="container__header">
+            <nav>
+                <ul>
+                    <li><a href="/">Início</a></li>
+                    <li><a href="/sobre">Conte sua experiência</a></li>
+                    <li><a href="/cadastro">Cadastro</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <body>
         <main>
-            <div class="my-slider">
-                <div></div>
-                <div></div>
-                <div></div>
+            <div class="containe_form">
+                <form class="formulario">
+                    <h2>Conte-nos sua esperiência!</h2>
+                    <div>
+                        <label for="lugar"> Lugar:</label>
+                        <input type="txt" id="lugar">
+                    </div>
+                    <div>
+                        <label for="descrição">Descrição:</label>
+                        <input type="txt" id="descrição">
+                    </div>
+                    <div>
+                        <label for="localização">Localização:</label>
+                        <input type="txt" id="localização">
+                    </div>
+                    <div>
+                        <label for="preço">Preço:</label>
+                        <input type="number" id="preço">
+                    </div>
+                    <div>
+                        <label for="atividades">Atividades:</label>
+                        <input type="txt" id="atividades">
+                    </div>
+                    <div>
+                        <label for="estrutura">Estrutura:</label>
+                        <input type="txt" id="estrutura">
+                    </div>
+                    <div>
+                        <label for="imagem">Imagem:</label>
+                        <input type="file" id="imagem">
+                    </div>
+                    <span class="container_btn">
+                        <button  class="btn" type="submit"><b>Cadastrar</b></button>
+                    </span>
+                </form>
+                <img src="/img/Trip-pana.png" alt="formulario" width="400">
             </div>
         </main>
+        <footer>
+            <p class="copyright">&copy;Descubrindo Rotas | Todos os direitos reservados-2022</p>
+        </footer>
     </body>
 
 </html>

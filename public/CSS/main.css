@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*-------------------------------------------Cadastrar---------------------------------------------*/
+
+.containe_form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(137, 205, 250);
+    gap: 25px;
+    font-family: Ubuntu;
+    color: white;
+    padding: 20px;
+}
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.formulario div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.formulario div input{
+    margin: 8px;
+    width: 180px;
+    background-color: white;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.12);
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+.container_btn{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    border-radius: 5px;
+    border: none;
+    font-family: Ubuntu;
+    padding: 8px;
+    margin-top: 15px;
+    background-color: rgb(4, 99, 161);
+    color: white;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(4, 99, 161);
+}

@@ -14,20 +14,20 @@ app.get("/", (req, res) => {
   res.render("index") 
 })
 
-app.get("/form-add", (req, res) => {
-  res.render("index") 
+app.get("/cadastrar", (req, res) => {
+  res.render("cadastrar") 
 })
 
 app.get("/form-edit", (req, res) => {
-  res.render("index") 
+  res.render("form-edit") 
 })
 
 app.get("/detalhes", (req, res) => {
-  res.render("index") 
+  res.render("detalhes") 
 })
 
 app.get("/sobre", (req, res) => {
-  res.render("index") 
+  res.render("sobre") 
 })
 
 app.listen(port, () =>
