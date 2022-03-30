@@ -15,20 +15,31 @@ main h2{
 
 .contato{
     width:100%;
-}
-
-.contato p{
-    padding: 2rem 0 .6rem 0;
-    text-align: center;
-    font-size: 1.2rem ;
-}
-
-.links{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
-.links a{
+.contato__bloco p{
+    padding: 1rem 0 .6rem 0;
+    font-size: 1.2rem ;
+    text-align: center;
+    
+    
+}
+.contato__bloco{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    
+}
+.contato__links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato__links a{
     padding: 0 .3rem 0 .3rem;
 
 }
@@ -43,10 +54,12 @@ main h2{
 
 footer{
     background-color: rgb(61, 94, 124);
+    bottom: 0;
+    padding: 1.8rem 0 1.8rem 0;
+    margin-top: 2rem;
 }
 footer p{
     text-align: center;
-    margin-top: 2rem;
-    padding: 2rem;
     color: rgb(219, 222, 224);
 }
+
