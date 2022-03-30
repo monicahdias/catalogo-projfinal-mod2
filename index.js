@@ -27,7 +27,7 @@ app.get("/detalhes", (req, res) => {
 })
 
 app.get("/sobre", (req, res) => {
-  res.render("index") 
+  res.render("sobre") 
 })
 
 app.listen(port, () =>
