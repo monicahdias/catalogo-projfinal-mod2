@@ -21,9 +21,9 @@ app.get("/cadastrar", (req, res) => {
   res.render("cadastrar");
 });
 
-app.get("/form-edit", (req, res) => {
-  res.render("form-edit");
-});
+app.get("/editar", (req, res) => {
+  res.render("editar") 
+})
 
 app.get("/detalhes", (req, res) => {
   res.render("detalhes");
