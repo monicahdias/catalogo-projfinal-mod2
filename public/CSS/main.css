@@ -3,7 +3,7 @@
 @import 'detalhes.css';
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
-.bg-body{
+.bg-body {
     background: #e4e6e3;
 }
 
@@ -12,7 +12,7 @@
     justify-content: center;
 } */
 
-.img-carousel{
+.img-carousel {
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -21,34 +21,44 @@
 }
 
 @media only screen and(max-width:800px) {
-    #txt{
+    #txt {
         top: 30px !important;
         font-size: 50px !important;
     }
-    h1{
+
+    h1 {
         font-size: 50px !important;
     }
 
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
-    font-family: "Ubuntu", Verdana, Geneva, Tahoma, sans-serif; 
+    font-family: "Ubuntu", Verdana, Geneva, Tahoma, sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
-.container__header{
+
+.container__header {
     display: flex;
     flex-direction: column;
 }
-.logo__header{
+
+.logo__header {
     display: flex;
     flex-direction: column;
     position: relative;
 }
-#txt{
+
+.logo__header img {
+    margin-top: 3rem;
+}
+
+#txt {
     position: absolute;
     left: 50px;
     top: 135px;
@@ -56,7 +66,8 @@ a{
     font-weight: bold;
     line-height: 1.1;
 }
-.container__nav{
+
+.container__nav {
     display: flex;
     flex-direction: row;
     background-color: rgb(70, 121, 199);
@@ -64,14 +75,16 @@ a{
     list-style: none;
     justify-content: space-around;
 }
-.container_carousel{
+
+.container_carousel {
     display: flex;
     justify-content: center;
     border: 1px solid black;
     height: 400px;
     align-items: center;
 }
-.copyright{
+
+.copyright {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,4 +94,10 @@ a{
     color: white;
 }
 
+.navbar {
+    background-color: #3d5e7c;
+}
 
+.offcanvas-body {
+    background-color: #3d5e7c;
+}
