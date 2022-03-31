@@ -81,4 +81,10 @@ a{
     color: white;
 }
 
+.navbar{
+    background-color: #3d5e7c;
+}
 
+.offcanvas-body{
+    background-color: #3d5e7c;
+}
