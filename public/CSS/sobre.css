@@ -5,10 +5,11 @@
     padding: 0;
     font-family: "Ubuntu", Verdana, Geneva, Tahoma, sans-serif;
 }
-main h2{
+
+main h2 {
     padding: 3rem 0 2rem 0;
     text-align: center;
-    color: rgb(30, 109, 228);
+    color: rgb(15, 73, 160);
 }
 
 .contato {
@@ -20,17 +21,15 @@ main h2{
 }
 
 .contato__bloco p {
-    padding: 1rem 0 .6rem 0;
+    padding: 1rem 0 0 0;
     font-size: 1.2rem;
     text-align: center;
-
 }
 
 .contato__bloco {
     display: flex;
     flex-direction: column;
     margin: 1rem;
-
 }
 
 .contato__links {
@@ -41,7 +40,6 @@ main h2{
 
 .contato__links a {
     padding: 0 .3rem 0 .3rem;
-
 }
 
 .github img {
@@ -51,5 +49,3 @@ main h2{
 .linkedin img {
     width: 3em;
 }
-
-
