@@ -1,64 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: "Ubuntu", Verdana, Geneva, Tahoma, sans-serif; 
-}
-body{
-    background-color: rgb(164, 188, 209);
+    font-family: "Ubuntu", Verdana, Geneva, Tahoma, sans-serif;
 }
 main h2{
     padding: 3rem 0 2rem 0;
     text-align: center;
+    color: rgb(30, 109, 228);
 }
 
-.contato{
-    width:100%;
+.contato {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 3rem;
 }
 
-.contato__bloco p{
+.contato__bloco p {
     padding: 1rem 0 .6rem 0;
-    font-size: 1.2rem ;
+    font-size: 1.2rem;
     text-align: center;
-    
-    
+
 }
-.contato__bloco{
+
+.contato__bloco {
     display: flex;
     flex-direction: column;
     margin: 1rem;
-    
+
 }
-.contato__links{
+
+.contato__links {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.contato__links a{
+.contato__links a {
     padding: 0 .3rem 0 .3rem;
 
 }
 
-.github img{
+.github img {
     width: 3em;
 }
 
-.linkedin img{
+.linkedin img {
     width: 3em;
 }
-footer{
-    background-color: rgb(61, 94, 124);
-    bottom: 0;
-    padding: 1.8rem 0 1.8rem 0;
-    margin-top: 2rem;
-}
-footer p{
-    text-align: center;
-    color: rgb(219, 222, 224);
-}
+
 
