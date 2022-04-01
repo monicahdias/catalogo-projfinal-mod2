@@ -1,30 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 @media only screen and(max-width: 900px) {
-    .containe_form{
+    .containe_form {
         flex-wrap: wrap !important;
         flex-direction: column;
     }
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.containe_form{
+
+.containe_form {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgb(137, 205, 250);
+    /* background-color: rgb(137, 205, 250); */
+    background-color: rgb(164, 193, 218);
     gap: 25px;
     font-family: Ubuntu;
     color: white;
     padding: 20px;
     margin-top: 110px;
 }
-.containe_form_editar{
+
+.containe_form_editar {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -37,30 +40,35 @@
     padding: 20px;
     margin-top: 110px;
 }
-.formulario{
+
+.formulario {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
-.formulario div{
+
+.formulario div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.formulario div input{
+
+.formulario div input {
     margin: 8px;
     width: 180px;
     background-color: white;
-    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.12);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.12);
     border-radius: 5px;
     border: none;
     padding: 5px;
 }
-.container_btn{
+
+.container_btn {
     display: flex;
     justify-content: center;
 }
-.btn{
+
+.btn {
     border-radius: 5px;
     border: none;
     font-family: Ubuntu;
@@ -69,9 +77,9 @@
     background-color: rgb(4, 99, 161);
     color: white;
 }
-.btn:hover{
+
+.btn:hover {
     cursor: pointer;
     background-color: white;
     color: rgb(4, 99, 161);
 }
-

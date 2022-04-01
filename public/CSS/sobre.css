@@ -6,20 +6,27 @@
     font-family: "Ubuntu", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+main {
+    background-color: rgb(164, 193, 218);
+}
+
 .titulo {
-    margin-top: 10rem;
-    padding: 3rem 0 2rem 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 12rem 0 2rem 0;
     text-align: center;
-    color: rgb(15, 73, 160);
+    color: rgb(37, 65, 107);
 }
 
 .contato {
     width: 100%;
-    height: 20rem;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
+    padding-bottom: 5rem;
 }
 
 .contato__bloco p {
