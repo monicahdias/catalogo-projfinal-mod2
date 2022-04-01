@@ -2,6 +2,7 @@ const express = require("express");
 const { url } = require("inspector");
 const path = require("path");
 const expressLayouts = require("express-ejs-layouts");
+require('dotenv').config()
 
 const app = express();
 
