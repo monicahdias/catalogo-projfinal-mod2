@@ -10,6 +10,7 @@
 }
 
 .card__detalhes{
+    
     display: flex;
     flex-direction: row;
     margin: 5em;
@@ -20,25 +21,5 @@
     padding: 2rem;
     gap:2rem;
 }
-.txt h2{
-    color: #ffffff;
-    padding: 0rem;
-}
-.card__img{
-    width: 30em;
-    height: 20em;
-    min-width: 3rem;
-}
-.txt{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    list-style: none;
-    gap: .6rem;
-    color: #ffffff;
-}
-.txt li{
-    font-size: 1.3rem;
-    margin-top: .5rem;
-}
+
 
