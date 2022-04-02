@@ -6,9 +6,7 @@
     font-family: "Ubuntu", Verdana, Geneva, Tahoma, sans-serif;
 }
 
-main {
-    background-color: rgb(164, 193, 218);
-}
+
 
 .titulo {
     display: flex;
@@ -16,12 +14,12 @@ main {
     flex-wrap: wrap;
     padding: 12rem 0 2rem 0;
     text-align: center;
-    color: rgb(37, 65, 107);
+    color: rgb(204,212,76);
 }
 
 .contato {
     width: 100%;
-    height: 100%;
+    height: 18rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
