@@ -19,14 +19,12 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /* background-color: rgb(137, 205, 250); */
-    background-color: rgb(118, 154, 185);
+    /*background-color: rgb(108, 172, 120);*/
     gap: 25px;
     font-family: Ubuntu;
-    color: rgb(24, 23, 23);
-    padding: 20px;
-    margin-top: 110px;
-
+    color: rgb(68,145,169);
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
 .containe_form_editar {
@@ -35,12 +33,13 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgb(118, 154, 185);
+    /*0background-color: rgb(56, 140, 165);*/
     gap: 25px;
     font-family: Ubuntu;
-    color: rgb(24, 23, 23);
-    padding: 20px;
-    margin-top: 110px;
+    color: rgb(123,176,134);
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+
 }
 
 .formulario {

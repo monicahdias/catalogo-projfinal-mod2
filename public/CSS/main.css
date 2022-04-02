@@ -19,19 +19,6 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-
-@media only screen and(max-width:800px) {
-    #txt {
-        top: 30px !important;
-        font-size: 50px !important;
-    }
-
-    h1 {
-        font-size: 50px !important;
-    }
-
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -42,64 +29,24 @@ a {
     text-decoration: none;
     color: white;
 }
-
-.container__header {
-    display: flex;
-    flex-direction: column;
-}
-
-.logo__header {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-
-.logo__header img {
-    margin-top: 3rem;
-}
-
-#txt {
-    position: absolute;
-    left: 50px;
-    top: 135px;
-    font-size: 2rem;
-    font-weight: bold;
-    line-height: 1.1;
-}
-
-.container__nav {
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(70, 121, 199);
-    padding: 10px;
-    list-style: none;
-    justify-content: space-around;
-}
-
-.container_carousel {
-    display: flex;
-    justify-content: center;
-    border: 1px solid black;
-    height: 400px;
-    align-items: center;
-}
-
 .copyright {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1.8rem 0 1rem 0;
+    padding: 1.2rem 0 .8rem 0;
     font-family: Futura Md Bt;
-    background-color: rgb(61, 94, 124);
+    background-color:#044ea6;
     color: white;
     margin-bottom: 0rem;
 }
 
 .navbar {
     /* background-color: #6399cc; */
-    background-color: #5c83a8;
+    background: rgb(2,0,36);
+    background: linear-gradient(51deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
 }
 
 .offcanvas-body {
-    background-color: #3d5e7c;
+    background: rgb(2,0,36);
+    background: linear-gradient(51deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
