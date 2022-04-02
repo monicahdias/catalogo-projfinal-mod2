@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded());
 app.use(expressLayouts);
 
-// let lugar = undefined;
+let lugar = undefined;
 let nextId = 5;
 let message = "";
 let catalogo = [
