@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded());
 app.use(expressLayouts);
 
-const Lugar = require("./models/catalogo");
+const Lugar = require("./models/lugares");
 
 let lugar = undefined;
 let nextId = 5;
