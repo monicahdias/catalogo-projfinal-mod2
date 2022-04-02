@@ -51,7 +51,7 @@ let catalogo = [
 ];
 
 app.get("/", (req, res) => {
-  res.render("index", catalogo);
+  res.render("index", {catalogo});
 });
 
 app.get("/cadastrar", (req, res) => {

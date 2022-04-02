@@ -4,15 +4,14 @@
     .card__detalhes{
         display: flex;
         flex-wrap: wrap !important;
-        flex-direction: column;
+      
         color: aqua;
     }
 }
 
 .card__detalhes{
-    
     display: flex;
-    flex-direction: row;
+
     margin: 5em;
     align-items: center;
     font-family: 'Ubuntu', sans-serif;
@@ -22,4 +21,9 @@
     gap:2rem;
 }
 
+#card{
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
 
+}
