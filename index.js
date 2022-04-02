@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded());
 app.use(expressLayouts);
 
-// let lugar = undefined;
+let lugar = undefined;
 let nextId = 5;
 let message = "";
 let catalogo = [
@@ -51,7 +51,7 @@ let catalogo = [
 ];
 
 app.get("/", (req, res) => {
-  res.render("index", catalogo);
+  res.render("index", {catalogo, lugar});
 });
 
 app.get("/cadastrar", (req, res) => {
