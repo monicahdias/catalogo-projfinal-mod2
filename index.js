@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded());
 app.use(expressLayouts);
 
-const Lugar = require("./models/lugares");
+// const Lugar = require("./models/lugar");
 
 let lugar = undefined;
 let nextId = 5;
@@ -53,21 +53,25 @@ let catalogo = [
 ];
 
 
-app.get("/", async (req, res) => {
-  const lugares = await Lugar.findAll();
-  console.log(lugares);
-  console.log(typeof(lugares));
-  res.render("index", {
-    lugares,
-  });
-});
+// app.get("/", async (req, res) => {
+//   const lugares = await Lugar.findAll();
+//   console.log(lugares);
+//   console.log(typeof(lugares));
+//   res.render("index", {
+//     lugares,
+//   });
+// });
 
-app.get("/lugares/:id", async (req, res) => {
-    const lugar = await Lugar.findByPk(req.params.id);
+// app.get("/lugares/:id", async (req, res) => {
+//     const lugar = await Lugar.findByPk(req.params.id);
 
-    res.render("detalhes", {
-        lugar,
-    });
+//     res.render("detalhes", {
+//         lugar,
+//     });
+// });
+
+app.get("/", (req, res) => {
+  res.render("index", {catalogo});
 });
 
 app.get("/cadastrar", (req, res) => {
